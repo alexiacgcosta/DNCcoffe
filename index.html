@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> 
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <div class="container-fluid mx-3">
+      <img src="./assets/logo.svg" >
+      <a class="navbar-brand" href="#">Dnc Coffee</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" data-bs-target="#modal"  data-bs-toggle="modal"  href="#">Sobre</a>
+          <a class="nav-link">Ajuda</a>
+        </div>
+       
+      </div>
+      <button type="button" class="btn btn-outline-secondary rounded-pill fw-bold btn-outline-dark ">Fazer pedido</button>
+    </div>
+    
+  </nav>
+  <section>
+    <img src="./assets/image.png" class="w-100"">
+  </section>
+
+  <div class="card-group row row-cols-1 row-cols-md-4 g-1 mt-1 mx-1">
+    <div class="col ">
+      <div class="card ">
+        <img src="./assets/card1-image.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Nossa loja de café se encontra em um lugar, 100% fictício, porém caso se sinta interessado pode vir tomar um café conosco em nossa sede em São José dos Campos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/card2-image.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Nossa casa de café é a melhor da região, aqui você tem tudo que precisa, uma boa conversar, bons amigos e um ambiente sem igual. Aproveite, pois Melhor que a DNC não existe!.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/card3-image.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Por que a DNC? Porque podem contar sempre com um serviço genuíno, uma atmosfera acolhedora e uma incrível xícara de café, torrado por especialistas e preparado de forma enriquecedora.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/card4-image.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">A escola especialista em formar talentos, com foco em empregabilidade, migração de carreira e aumento de performance.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal" tabindex="-1" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Quem somos nós? </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button> 
+        </div>
+        <div class="modal-body">
+          <p>Tudo o que fazemos procura respeitar essa conexão, desde nosso compromisso com o café de melhor qualidade do mundo até a forma como nós interagimos com nossos clientes e nossas comunidades para conduzir nosso negócio de modo responsável.
+          </p>
+          <img src="./assets/modal-image.png">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
