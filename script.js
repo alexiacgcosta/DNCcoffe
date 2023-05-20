@@ -28,15 +28,10 @@ window.onclick = function(event) {
 // Ação de aparecer o btn no card
 
 
-//fuction
-
-function showBtn () {
-  let btnCard = document.getElementById("btn-card");
-  btnCard.classList.remove("botao-oculto");
+function showBtn (selector) {
+  let btnCard = document.querySelector(selector);
+  btnCard.classList.toggle("botao-oculto");
 }
 
-function hideBtn () {
-  let btnCard = document.getElementById("btn-card");
-  btnCard.classList.add("botao-oculto");
-}
+
 

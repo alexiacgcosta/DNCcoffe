@@ -30,49 +30,50 @@
     
   </nav>
   <section>
-    <img src="./assets/image.png" class="w-100"">
+    <img src="./assets/image.png" id="coffeimg" class="w-100"">
   </section>
+
 
   <div class="card-group row row-cols-1 row-cols-md-4 ">
     <div class="col ">
-      <div class="card " onmouseenter="showBtn()" onmouseout="hideBtn()">
+      <div class="card " onmouseenter="showBtn('#btncard1')" onmouseleave="showBtn('#btncard1')">
         <img src="./assets/card1-image.png" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">Nossa loja de café se encontra em um lugar, 100% fictício, porém caso se sinta interessado pode vir tomar um café conosco em nossa sede em São José dos Campos.</p>
         </div>
-        <div class="botao-oculto" id="btn-card">
-          <button class="dark-btn">COMPRAR AGORA</button>
+          <div>
+            <button id="btncard1" class="dark-btn botao-oculto">COMPRAR AGORA</button>
           </div>
       </div>
     </div>
-    <div class="col">
-      <div class="card" onmouseenter="showBtn()" onmouseout="hideBtn()">
+    <div class="col ">
+      <div class="card" onmouseenter="showBtn('#btncard2')" onmouseleave="showBtn('#btncard2')">
         <img src="./assets/card2-image.png" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">Nossa casa de café é a melhor da região, aqui você tem tudo que precisa, uma boa conversar, bons amigos e um ambiente sem igual. Aproveite, pois Melhor que a DNC não existe!.</p>
           </div>
-          <div class="botao-oculto" ="btn-card">
-          <button class="dark-btn">COMPRAR AGORA</button>
+          <div >
+          <button class="dark-btn botao-oculto" id="btncard2">COMPRAR AGORA</button>
           </div>
         
       </div>
     </div>
     <div class="col">
-      <div class="card" onmouseenter="showBtn()" onmouseout="hideBtn()">
+      <div class="card" onmouseenter="showBtn('#btncard3')" onmouseleave="showBtn('#btncard3')">
         <img src="./assets/card3-image.png" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">Por que a DNC? Porque podem contar sempre com um serviço genuíno, uma atmosfera acolhedora e uma incrível xícara de café, torrado por especialistas e preparado de forma enriquecedora.</p>
         </div>
-        <button class="dark-btn botao-oculto">COMPRAR AGORA</button>
+        <button class="dark-btn botao-oculto" id="btncard3">COMPRAR AGORA</button>
       </div>
     </div>
     <div class="col">
-      <div class="card">
+      <div class="card" onmouseenter="showBtn('#btncard4')" onmouseleave="showBtn('#btncard4')">
         <img src="./assets/card4-image.png" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">A escola especialista em formar talentos, com foco em empregabilidade, migração de carreira e aumento de performance.</p>
         </div>
-        <button class="dark-btn botao-oculto">COMPRAR AGORA</button>
+        <button id="btncard4" class="dark-btn botao-oculto" >COMPRAR AGORA</button>
       </div>
     </div>
   </div>
