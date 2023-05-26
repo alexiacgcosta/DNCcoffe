@@ -34,15 +34,23 @@
 }
 
 .card-text {
-  height: 60px;
   overflow: hidden;
   width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .card-body {
  padding: 3%;
  
 }
+
+.card-body:hover .card-text{
+  overflow: none;
+  display: block;
+}
+
 .card {
   display: flex;
   align-items: center;
